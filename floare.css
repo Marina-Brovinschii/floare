@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(#E0FFFF 70%, rgb(3, 174, 3) 30%);
+    background-repeat: no-repeat;
+}
+.floare {
+    width: 1200px;
+    height: 815px;
+}
+.floare .petale {
+    display: inline-block;
+}
+.floare .petale div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.5;
+    position: absolute;
+}
+.floare .petala1 {
+    background-color:aqua;
+    top: 50px;
+    left: 650px;
+    z-index: ;
+}
+.floare .petala2 {
+    background-color: blue;
+    top: 100px;
+    left: 733px;
+    z-index: 2;
+}
+.floare .petala3 {
+    background-color: rgb(255, 0, 212);
+    top: 200px;
+    left: 733px;
+    z-index: 3;
+}
+.floare .petala4 {
+    background-color:red;
+    top: 250px;
+    left: 650px;
+    z-index: 4;
+}
+.floare .petala5 {
+    background-color: yellow;
+    top: 200px;
+    left: 560px;
+    z-index: 5;
+}
+.floare .petala6 {
+    background-color: rgb(2, 255, 2);
+    top: 100px;
+    left: 560px;
+    z-index: 6;
+}
+.floare .tulpina {
+    width: 20px;
+    height: 400px;
+    background-color: rgb(1, 90, 1);
+    position: absolute;
+    top: 350px;
+    left: 737px;
+    border-radius: 50%;
+}
+.floare .frunza1 {
+    width: 80px;
+    height: 300px;
+    background-color: rgb(1, 90, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 780px;
+    transform: rotate(30deg);
+}
+.floare .frunza2 {
+    width: 60px;
+    height: 200px;
+    background-color: rgb(1, 90, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left:660px;
+    transform: rotate(-30deg);
+}
